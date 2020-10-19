@@ -1,0 +1,36 @@
+body {
+    font-size: 14px;
+    color: navy;
+	font-family: arial, helvetica, sans-serif;
+}
+
+h1 {
+    color: #ffc;
+    background-color: #009;
+}
+
+
+
+#mostimportant {
+    letter-spacing: 0.5em;
+    word-spacing: 2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.important
+{
+	color: red;
+	background-color: yellow;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+table, th, td {
+  border: 1px solid navy;
+}
+
+button
+{
+	float: right;
+}

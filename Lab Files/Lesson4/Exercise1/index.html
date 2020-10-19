@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>My first web page</title>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="script.js"></script>
+
+    <!-- This is a comment -->
+
+</head>
+
+<body>
+
+<h1>My first web page</h1>
+
+<h2>What's it all about?</h2>
+<p>This is a webpage to demonstrate some of the most useful <em>elements</em> (also known as <em>tags</em>) that are available in HTML. You can use it as a starting point for adding in HTML of your own. You can also use it to practise using CSS to add styling and JavaScript to add functionality.</p>
+
+<h2>Some of the things you should know about HTML</h2>
+<ul>
+    <li>There is a always a head and there is always a body
+        <ol>
+            <li>The head is used to add "meta" infomation</li>
+			<li>The head can contain links to separate CSS and JavaScript files</li>
+            <li>The body is where you put all the HTML elements that are to be displayed on the page</li>
+        </ol>
+    </li>
+    <li>Elements have two parts - an open and a close</li>
+	<li>You can use F12 (Developer Tools) to inspect the HTML in this page</li>
+</ul>
+
+<h3>Divs are used a lot for styling</h3>
+<div class="important">Really important information</div>
+<div>should</div>
+<div>be</div>
+<div class="important" id="mostimportant">higlighted so you notice it!!!</div>
+
+
+<h3>Tables are also very useful. Here is an example without any useful data in it</h3>
+<table>
+    <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 2</td>
+        <td>Row 1, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 2, cell 1</td>
+        <td>Row 2, cell 2</td>
+        <td>Row 2, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 3, cell 1</td>
+        <td>Row 3, cell 2</td>
+        <td>Row 3, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 4, cell 1</td>
+        <td>Row 4, cell 2</td>
+        <td>Row 4, cell 3</td>
+    </tr>
+</table>
+
+<h3>Now let's see how we can call some JavaScript by clicking a button</h3>
+<label>Click the button to change the color of the "most important" div</label>
+<button onclick="pickNewColour()">Change the colour</button>
+
+</body>
+
+</html>
