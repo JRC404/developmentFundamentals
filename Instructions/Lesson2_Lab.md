@@ -95,7 +95,7 @@ title: MTA Dev - Lab 2
 
 1. Add a star class at the end of the file:
     ``` csharp
-    class Triangle : Triangle
+    class Star : Triangle
     {
         public new void Draw()
         {

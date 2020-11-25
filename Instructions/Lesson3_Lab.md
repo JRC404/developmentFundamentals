@@ -18,7 +18,7 @@ title: MTA Dev - Lab 3
     >   2. print out the last word in the array
     >   3. add any word to the end of the array
 > 
-> The rest of this file list how to acheive the above.
+> The rest of this file lists how to acheive the above.
 3. Change `type` to `kind` using code (Line 10)
     ``` csharp
     arrayOfWords[3] = "kind";
@@ -42,6 +42,7 @@ title: MTA Dev - Lab 3
     - what does method Contains allow you to do?
 1. Press <kbd>F5</kbd> to run the program
     > Check your answers
+    
 ## Exercise 3: Stacks
 1. Open Lesson3/Exercise3
 1. Open Program.cs

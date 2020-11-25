@@ -15,6 +15,6 @@ public class Rectangle
 
 	public double GetArea()
 	{
-		return 0;
+		return this.length * this.width;
 	}
 }
