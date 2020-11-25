@@ -41,6 +41,7 @@ There are 2 ways to achieve this:
 
 - Visual Studio Code
     1. Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to run the program without debugging.
+> You may be shown a prompt stating that the coreclr debugger is not enabled if this is the case please install the c# extension as per the [prerequisites](./Lesson0_PreRequisites.md)
 - Command Line
     1. Start the terminal/ console tab
     1. In the terminal type : `dotnet run`
